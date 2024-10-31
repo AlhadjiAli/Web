@@ -1,0 +1,40 @@
+body{
+  background-color:#778899 ;
+}
+ul {
+  list-style-type: none;
+  margin: 12;
+  padding: 15;
+  overflow: hidden;
+  background-color: #87CEEB;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: white;
+}
+
+li a:hover {
+  background-color:#008000;
+}
+p{font-family: monaco;
+  background-color: #A9A9A9;
+  color: black;
+  padding: 50px;
+  background-image: url(logo.png);
+}
+img {
+  width: 33%;
+  height: auto;
+  float: left; 
+  max-width: 235px;
+}
+.saturate {filter: saturate(7);}
+.grayscale {filter: grayscale(100%);}
